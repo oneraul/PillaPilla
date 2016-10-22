@@ -1,0 +1,101 @@
+{
+
+/*
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	default-font: {
+        //file: font.fnt
+        //file: com/badlogic/gdx/utils/arial-15.fnt
+    },
+},
+*/
+
+com.badlogic.gdx.graphics.Color: {
+	white: {a: 1, b: 1, g: 1, r: 1 },
+	grey: {a: 1, b: 0.32, g: 0.32, r: 0.32 },
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+    default: {
+        font: default-font,
+    }
+},
+
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		down: button_down,
+        pressedOffsetY: -5,
+		up: button_up,
+		over: button_up,
+        disabled: button_disabled,
+		font: default-font,
+		fontColor: white,
+		disabledFontColor: grey
+    },
+}
+
+com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+    default: {
+        font: default-font,
+        fontColor: grey,
+        background: textfield,
+        cursor: textfield_cursor,
+        /*
+        disabledBackground: ,
+        disabledFontColor: ,
+        focusedBackground: ,
+        focusedFontColor: ,
+        messageFont: ,
+        messageFontColor: ,
+        selection: ,
+        */
+    },
+}
+
+com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+    default-horizontal: {
+        background: slider,
+        knob: slider_knob,
+        /*
+        disabledBackground: ,
+        disabledKnob: ,
+        disabledKnobAfter: ,
+        disabledKnobBefore: ,
+        knobAfter: ,
+        knobBefore: ,
+        knobDown: ,
+        knobOver: ,
+        */
+    }
+}
+
+com.ocronite.pillapilla.LinkLabel$LinkLabelStyle: {
+    default: {
+        fontColor: {a: 1, b: 0.886, g: 0.631, r: 0.105 },
+        underline: underline,
+        font: default-font
+    }
+}
+
+com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+    default: {
+        font: default-font,
+        checkboxOff: checkboxOff,
+        checkboxOffDisabled: checkboxOffDisabled,
+        checkboxOn: checkboxOn,
+        checkboxOnDisabled: checkboxOnDisabled,
+        //checkboxOver: ,
+    }
+}
+
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+    default: {
+        //background: ,
+        //corner: ,
+        hScroll: slider,
+        hScrollKnob: slider_knob,
+        vScroll: slider_vertical,
+        vScrollKnob: slider_knob,
+    }
+}
+
+}
